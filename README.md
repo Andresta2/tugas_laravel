@@ -68,7 +68,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - After cloning the project, enter the project then open terminal
 - run 'php artisan storage:link'
 - copy the .env.example so it'll become new file named .env.example.copy then rename it to .env 
-- change the DB_DATABASE=laravel to DB_DATABASE=db_Andresta
+- go to .env file, change the DB_DATABASE=laravel to DB_DATABASE=db_Andresta
 - make the Database on browser, go to site 'localhost/phpmyadmin' then create new database named db_Andresta
 - go to vscode, go to the terminal, run 'php artisan migrate'
 - After that, run 'php artisan serve' and go to localhost:8000/posts or click the url 127.0.0.1:8000/posts
